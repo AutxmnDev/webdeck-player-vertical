@@ -1,2 +1,3 @@
 DEFAULT THEME - FOR WEBDECK PLAYER
 Created by Chris
+Modified by Autxmn for vertical version

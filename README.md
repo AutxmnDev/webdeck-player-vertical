@@ -1,6 +1,6 @@
 # Webdeck Player Vertical Version
 
-This project is a modified version of the original Web Deck Player created by @cristiancfm
+This project is a modified version of the original **Webdeck Player** created by **@cristiancfm**
 All credit for the original concept and implementation goes to the original author.
 
 **Please go to check the original project:** https://github.com/cristiancfm/webdeck-player
@@ -8,18 +8,34 @@ All credit for the original concept and implementation goes to the original auth
 **Support Chris here:**
 <br><a href="https://ko-fi.com/cristiancfm"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=6" alt="ko-fi" height="35"/></a>
 
-# About this version
 
-<img width="310" height="427" alt="Webdek vertical default" src="https://github.com/user-attachments/assets/aaa58308-7e01-4556-8c0d-6b028b2ee5f5" />
-<img width="302" height="430" alt="Webdek vertical minimal" src="https://github.com/user-attachments/assets/90894038-9899-45a7-94c6-9b342e56a3d7" />
+---
 
-- **_Default_ and _minimal_ themes were modified to have a vertical layout**
+## About this version
 
+This version adapts the original Webdeck Player to a **vertical format**.
 
-    This player is designed to run inside a **vertical container of 280x400px**.
-    It can be used in two ways, as mentioned in the original project:
-    
-    1. You can open the player in a separate browser window, allowing users to keep navigating your site while the music continues playing.
+<img width="310" height="430" alt="Webdeck vertical default" src="https://github.com/user-attachments/assets/aaa58308-7e01-4556-8c0d-6b028b2ee5f5" />
+<img width="302" height="430" alt="Webdeck vertical minimal" src="https://github.com/user-attachments/assets/90894038-9899-45a7-94c6-9b342e56a3d7" />
+
+### Changes in this version
+
+- Vertical layout **280x400px**
+- Modified **Default** and **Minimal** themes for vertical use
+
+---
+
+## Installation
+
+1. Download the project from the Releases page or clone the repository
+2. Copy the ```webdeck-player-vertical``` folder into your project
+
+## Usage
+
+This player is designed to run inside a **280x400px vertical container**.
+
+You can use it in two ways, as in the original project:
+### 1. Open in a new browser window
         ```html
         <button
          onclick="window.open(
@@ -31,7 +47,9 @@ All credit for the original concept and implementation goes to the original auth
          Open Web Deck Player
         </button>
         ```
-    2. Embed the player using an iframe.
+
+### 2. Embed the player using an iframe
+
         ```html
         <iframe
         src="/webdeck-player/index.html"
@@ -41,3 +59,21 @@ All credit for the original concept and implementation goes to the original auth
         style="border: none;"
         ></iframe>
         ```
+---
+
+## Adding playlists
+
+Go to the ```script.js``` file inside the ```webdeck-player-vertical``` folder. There you can follow the instructions to change the playlists shown in the player.
+
+## Adding themes
+
+To add a new theme to the player, copy its folder to the themes folder. Then, open the ```script.js``` file and add it to the list following the instructions inside.
+
+## Creating a new theme
+Themes are just a collection of resources (like images or fonts) and a CSS file to modify the player appearance. You just need basic knowledge about CSS to start! Create a new theme following these steps:
+
+1. Inside the ```webdeck-player-vertical``` folder, locate the themes folder and open it.
+2. Choose a theme folder as a base, for example, the default theme. You can modify any other theme.
+3. Duplicate your chosen folder and rename it. For example, call it ```my-theme```.
+4. Add your new theme to the ```script.js``` file following the instructions inside it.
+5. Inside your theme folder, open the ```webdeck-player.css``` file and modify it to your liking. You can also change the fonts and the images. Do not rename any image. Their paths are used in the ```script.js``` file. The ```about.txt``` file is for adding a description about the theme and your name.
