@@ -36,7 +36,7 @@ This player is designed to run inside a **280x400px vertical container**.
 
 You can use it in two ways, as in the original project:
 ### 1. Open in a new browser window
-        ```html
+```html
         <button
          onclick="window.open(
          '/webdeck-player/index.html',
@@ -46,11 +46,11 @@ You can use it in two ways, as in the original project:
         >
          Open Web Deck Player
         </button>
-        ```
+```
 
 ### 2. Embed the player using an iframe
 
-        ```html
+```html
         <iframe
         src="/webdeck-player/index.html"
         height="400"
@@ -58,7 +58,7 @@ You can use it in two ways, as in the original project:
         scrolling="no"
         style="border: none;"
         ></iframe>
-        ```
+```
 ---
 
 ## Adding playlists
