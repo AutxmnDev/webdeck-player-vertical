@@ -209,10 +209,16 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
 
 #info-screen {
   width: 100%;
+  height: 45px;
   background: black;
   color: limegreen;
   border: inset 2px #403f67;
   margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 
 #songLabel {
@@ -264,8 +270,8 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
 }
 
 #playerLogo > img {
-  margin-top: 5px;
-  max-height: 30px;
+  margin-top: 2px;
+  max-height: 24px;
 }
 
 /* Player control panel */
@@ -318,7 +324,7 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
   flex-direction: row;
   align-items: center;
   justify-content: flex-center;
-  gap: 6px;
+  gap: 4px;
   flex-wrap: nowrap;
 }
 
@@ -346,6 +352,12 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
   min-width: 30px;
   font-size: large;
 }
+
+#shuffleButton {
+  width: 82px;
+  font-size: 13px;
+}
+
 
 #playlistSelector {
   height: 30px;
