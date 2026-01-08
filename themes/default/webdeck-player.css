@@ -270,7 +270,7 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
 }
 
 #playerLogo > img {
-  margin-top: 2px;
+  margin-top: 1px;
   max-height: 24px;
 }
 
@@ -281,7 +281,7 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
 
 #seekBar {
   width: 250px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .playing-controls {
