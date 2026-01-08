@@ -6,7 +6,7 @@ All credit for the original concept and implementation goes to the original auth
 **Please go to check the original project:** https://github.com/cristiancfm/webdeck-player
 
 **Support Chris here:**
-<a href="https://ko-fi.com/cristiancfm"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=6" alt="ko-fi" height="35"/></a>
+<br><a href="https://ko-fi.com/cristiancfm"><img src="https://storage.ko-fi.com/cdn/kofi2.png?v=6" alt="ko-fi" height="35"/></a>
 
 # About this version
 
