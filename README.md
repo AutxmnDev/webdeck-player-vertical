@@ -1,4 +1,4 @@
-# Webdeck Player Vertical Layout
+# Webdeck Player – Vertical Layout
 
 This project is a modified version of the original **Webdeck Player** created by **@cristiancfm**
 All credit for the original concept and implementation goes to the original author.
