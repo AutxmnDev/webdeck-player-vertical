@@ -15,8 +15,7 @@ All credit for the original concept and implementation goes to the original auth
 
 This version adapts the original Webdeck Player to a **vertical format**.
 
-<img width="310" height="430" alt="Webdeck vertical default" src="https://github.com/user-attachments/assets/aaa58308-7e01-4556-8c0d-6b028b2ee5f5" />
-<img width="302" height="430" alt="Webdeck vertical minimal" src="https://github.com/user-attachments/assets/90894038-9899-45a7-94c6-9b342e56a3d7" />
+<img width="611" height="427" alt="webdeck player vertical" src="https://github.com/user-attachments/assets/c0a37c96-e0bd-4bbe-8d10-3192d1261f14" />
 
 ### Changes in this version
 
